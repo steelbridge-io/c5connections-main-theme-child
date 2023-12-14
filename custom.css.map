@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,uBAAuB;ACCrB,2BAAM;EACJ,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG",
-"sources": ["assets/scss/custom.scss","assets/scss/supports/_front-page.scss"],
-"names": [],
-"file": "custom.css"
-}

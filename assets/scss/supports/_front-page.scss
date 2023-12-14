@@ -1,6 +1,21 @@
+#front-page {
+  background-color: #f1f1f1;
+  padding: 2.618em 0;
+  margin-bottom: 3.618em;
+}
+
 #front-page-post-grid {
+  margin: 2.618em auto;
   .card {
-    margin: 5px;
+    margin: 3px;
+    padding: 1em;
+  }
+}
+
+#front-page-announcement-grid {
+  margin: 2.618em auto;
+  .card {
+    margin: 3px;
     padding: 1em;
   }
 }
