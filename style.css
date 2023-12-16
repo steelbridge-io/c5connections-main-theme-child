@@ -7,30 +7,25 @@ Description: This theme is a child of c5connections Theme. This child theme is u
 Template: c5connections-theme
 Version: 1.0.0
 --------------------------------------------------------------
-# Supports Ra
+# Supports 
 --------------------------------------------------------------*/
 /* Front Page
 --------------------------------------------- */
 #front-page {
   background-color: #f1f1f1;
   padding: 2.618em 0;
-  margin-bottom: 3.618em;
-}
+  margin-bottom: 3.618em; }
 
 #front-page-post-grid {
-  margin: 2.618em auto;
-}
-#front-page-post-grid .card {
-  margin: 3px;
-  padding: 1em;
-}
+  margin: 2.618em auto; }
+  #front-page-post-grid .card {
+    margin: 3px;
+    padding: 1em; }
 
 #front-page-announcement-grid {
-  margin: 2.618em auto;
-}
-#front-page-announcement-grid .card {
-  margin: 3px;
-  padding: 1em;
-}
+  margin: 2.618em auto; }
+  #front-page-announcement-grid .card {
+    margin: 3px;
+    padding: 1em; }
 
 /*# sourceMappingURL=style.css.map */
