@@ -10,6 +10,7 @@ $text = "News";
 			
 			<?php
 			if ( ! is_user_logged_in() ): ?>
+                <img class="login-logo" src="/images/C5-Childrens-School-Logo.png" alt="logo">
                 <form name="loginform" id="loginform"
                       action="<?php echo esc_url( site_url( 'wp-login.php',
 					      'login_post' ) ); ?>" method="post">
