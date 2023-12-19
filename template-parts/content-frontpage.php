@@ -2,7 +2,7 @@
 /**
  * Template part for displaying page content in page.php
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link    https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package c5connections_Theme
  */
@@ -13,24 +13,29 @@
 
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="entry-header">
-			<?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
+            <h3 class="entry-title">
+                <a href="<?php the_permalink(); ?>">
+					<?php the_title(); ?>
+                </a>
+            </h3>
         </header><!-- .entry-header -->
-
+		
 		<?php c5connections_theme_post_thumbnail(); ?>
 
         <div class="entry-content">
 			<?php
 			the_excerpt();
-
+			
 			wp_link_pages(
 				array(
-					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'c5connections-theme' ),
+					'before' => '<div class="page-links">'
+					            . esc_html__( 'Pages:', 'c5connections-theme' ),
 					'after'  => '</div>',
 				)
 			);
 			?>
         </div><!-- .entry-content -->
-
+		
 		<?php if ( get_edit_post_link() ) : ?>
             <footer class="entry-footer">
 				<?php
@@ -38,7 +43,8 @@
 					sprintf(
 						wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-							__( 'Edit <span class="screen-reader-text">%s</span>', 'c5connections-theme' ),
+							__( 'Edit <span class="screen-reader-text">%s</span>',
+								'c5connections-theme' ),
 							array(
 								'span' => array(
 									'class' => array(),
