@@ -13,11 +13,11 @@
 
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="entry-header">
-            <h3 class="entry-title">
+            <h4 class="entry-title">
                 <a href="<?php the_permalink(); ?>">
 					<?php the_title(); ?>
                 </a>
-            </h3>
+            </h4>
         </header><!-- .entry-header -->
 		
 		<?php c5connections_theme_post_thumbnail(); ?>

@@ -2,8 +2,64 @@
   .main-navigation {
     justify-content: center;
   }
+
   .well {
     padding: 4em 1em 0 1em;
   }
 
+}
+
+#user-class-nav {
+  .main-navigation {
+    justify-content: center;
+  }
+
+  .well {
+    padding: 2em 1em 0 1em;
+
+    #site-navigation ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        margin: 3px 3px;
+        text-align: center;
+        width: 120px;
+        height: 100px;
+        &:hover {
+          border: #000 .9px solid;
+          background-color: #eee;
+        }
+
+        a {
+          padding: 3px;
+          color: #000;
+
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+
+.home {
+  #masthead {
+    #primary-menu {
+      li {
+        &.current-menu-item a {
+          color: #CD1E54;
+        }
+        a {
+          color: #f5f5f5;
+        }
+      }
+    }
+  }
 }

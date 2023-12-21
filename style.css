@@ -11,32 +11,116 @@ Version: 1.0.0
 --------------------------------------------------------------*/
 /* Front Page
 --------------------------------------------- */
+.home header .site-branding .site-title a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
 #front-page {
   background-color: transparent;
   padding: 2.618em 0;
-  margin-bottom: 3.618em; }
+  margin-bottom: 3.618em;
+}
+#front-page h1 {
+  color: #f5f5f5;
+}
 
 #front-page-post-grid {
-  margin: 2.618em auto; }
-  #front-page-post-grid .card {
-    margin: 3px;
-    padding: 1em; }
+  margin: 2.618em auto;
+}
+#front-page-post-grid h4 {
+  color: #000000;
+}
+#front-page-post-grid h4 a {
+  text-decoration: none;
+  color: #000000;
+}
+#front-page-post-grid .card {
+  margin: 3px;
+  padding: 1em;
+}
 
 #front-page-announcement-grid {
-  margin: 2.618em auto; }
-  #front-page-announcement-grid .card {
-    margin: 3px;
-    padding: 1em; }
+  margin: 2.618em auto;
+}
+#front-page-announcement-grid h4 {
+  color: #000000;
+}
+#front-page-announcement-grid h4 a {
+  text-decoration: none;
+  color: #000000;
+}
+#front-page-announcement-grid .card {
+  margin: 3px;
+  padding: 1em;
+}
 
 .login-logo {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
+
+/* Global
+--------------------------------------------- */
+.moretag {
+  text-decoration: none;
+  color: #CD1E54;
+}
+.moretag:hover {
+  color: #CD1E54;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* Nav
 --------------------------------------------- */
 #class-nav .main-navigation {
-  justify-content: center; }
+  justify-content: center;
+}
 #class-nav .well {
-  padding: 4em 1em 0 1em; }
+  padding: 4em 1em 0 1em;
+}
+
+#user-class-nav .main-navigation {
+  justify-content: center;
+}
+#user-class-nav .well {
+  padding: 2em 1em 0 1em;
+}
+#user-class-nav .well #site-navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#user-class-nav .well #site-navigation ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 3px 3px;
+  text-align: center;
+  width: 120px;
+  height: 100px;
+}
+#user-class-nav .well #site-navigation ul li:hover {
+  border: #000 0.9px solid;
+  background-color: #eee;
+}
+#user-class-nav .well #site-navigation ul li a {
+  padding: 3px;
+  color: #000;
+}
+#user-class-nav .well #site-navigation ul li a:hover {
+  color: #000;
+}
+
+.home #masthead #primary-menu li.current-menu-item a {
+  color: #CD1E54;
+}
+.home #masthead #primary-menu li a {
+  color: #f5f5f5;
+}
 
 /*# sourceMappingURL=style.css.map */
