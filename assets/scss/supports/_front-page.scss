@@ -1,11 +1,22 @@
 .home {
   header {
+    &#masthead {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
     .site-branding {
-      .site-title a {
-        color: #f5f5f5;
-        text-decoration: none;
+      .site-title {
+        text-align: center;
+
+        a {
+          color: #f5f5f5;
+          text-decoration: none;
+        }
       }
     }
+  }
+  #front-page {
+    padding: 0;
   }
 }
 
@@ -57,5 +68,5 @@
 
 .login-logo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto .5em auto;
 }
