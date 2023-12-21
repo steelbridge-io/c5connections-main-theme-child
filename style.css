@@ -11,19 +11,20 @@ Version: 1.0.0
 --------------------------------------------------------------*/
 /* Front Page
 --------------------------------------------- */
-.home header#masthead {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-.home header .site-branding .site-title {
-  text-align: center;
-}
-.home header .site-branding .site-title a {
+.home .site-branding .site-title a {
   color: #f5f5f5;
   text-decoration: none;
 }
-.home #front-page {
+
+.home.logged-out header#masthead {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.home.logged-out #front-page {
   padding: 0;
+}
+.home.logged-out .site-branding .site-title {
+  text-align: center;
 }
 
 #front-page {
