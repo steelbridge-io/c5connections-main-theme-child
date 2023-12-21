@@ -19,6 +19,7 @@
 }
 
 #user-class-nav {
+  margin-top: 3.618em;
   .main-navigation {
     justify-content: center;
   }
@@ -32,6 +33,7 @@
       justify-content: center;
 
       li {
+        border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;

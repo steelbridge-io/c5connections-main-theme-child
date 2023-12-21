@@ -101,6 +101,9 @@ a {
   margin-left: 1em;
 }
 
+#user-class-nav {
+  margin-top: 3.618em;
+}
 #user-class-nav .main-navigation {
   justify-content: center;
 }
@@ -113,6 +116,7 @@ a {
   justify-content: center;
 }
 #user-class-nav .well #site-navigation ul li {
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
