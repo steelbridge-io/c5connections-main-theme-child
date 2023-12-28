@@ -35,12 +35,18 @@
                 <h1 class="site-title"><a
                             href="<?php echo esc_url( home_url( '/' ) ); ?>"
                             rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                <a href="<?php echo esc_url('https://c5connections.org') ?>">
+                    <img class="c5-logo" src="https://c5connections.org/images/C5-Childrens-School-Logo.webp" alt="c5connections Logo">
+                </a>
 			<?php
 			else :
 				?>
-                <h1 class="site-title"><a
-                            href="<?php echo esc_url( home_url( '/' ) ); ?>"
-                            rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                <!-- <h1 class="site-title"><a
+                            href="<?php //echo esc_url( home_url( '/' ) ); ?>"
+                            rel="home"><?php //bloginfo( 'name' ); ?></a></h1> -->
+            <a href="<?php echo esc_url('https://c5connections.org') ?>">
+                <img class="c5-logo" src="https://c5connections.org/images/C5-Childrens-School-Logo.webp" alt="c5connections Logo">
+            </a>
 			<?php
 			endif;
 			$c5connections_theme_description = get_bloginfo( 'description',
