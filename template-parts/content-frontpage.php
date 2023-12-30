@@ -18,6 +18,15 @@
 					<?php the_title(); ?>
                 </a>
             </h4>
+	        <?php
+	        $post_id   = get_the_ID(); // Replace with your post ID.
+	        $author_id = get_post_field( 'post_author', $post_id );
+	        
+	        echo '<span class="published">Published:&nbsp;' . get_the_date( 'F j, Y',
+			        $post_id ) . '</span>';  // Echo the date of the post. Change the format as needed.
+	        echo '<span class="author">Author:&nbsp;' . get_the_author_meta( 'display_name',
+			        $author_id ) . '</span>';  // Echo the author name.
+	        ?>
         </header><!-- .entry-header -->
 		
 		<?php c5connections_theme_post_thumbnail(); ?>
